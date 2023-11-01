@@ -55,9 +55,10 @@ console.log(x2);
 //4 print the result as an array 
 let result3 = [];
 let counter2 = 1;
-while (counter2 <= 135) {
+while (counter2 < 135) {
 
   if(counter2 % 3 == 0 && counter2 % 5 == 0) {
+    result3.push("FizzBuzz")
   }else if(counter2 % 3 == 0){
     result3.push("Buzz")
   }else if(counter2 % 5 == 0){
@@ -116,7 +117,7 @@ console.log(arr2);
 
 // Given the array of strings X = ['Man', 'I','Love','The','Matrix','Program'], replace every letter of the word Program with *, so the output would be ['Man', 'I','Love','The','Matrix','*******']. Then make your algorithm work for any word of your choice
 
-// have a array 
+// have an array 
 // make a function with two params
 // map() the array to find word "program"
 // replace * for each letter of word 
@@ -132,3 +133,5 @@ function changeWord(array, word) {
   console.log(array);
 }
 changeWord(array,"Program");
+
+
