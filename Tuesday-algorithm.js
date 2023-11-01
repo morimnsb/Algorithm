@@ -55,7 +55,7 @@ console.log(x2);
 //4 print the result as an array 
 let result3 = [];
 let counter2 = 1;
-while (counter2 < 135) {
+while (counter2 <= 135) {
 
   if(counter2 % 3 == 0 && counter2 % 5 == 0) {
   }else if(counter2 % 3 == 0){
