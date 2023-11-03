@@ -12,11 +12,9 @@
 // call it 
 
 function isPalindrome(str){
+  str = str.toLowerCase();
   let reverseString ="";
   for (let i = str.length ; i >0 ; i--) {
-    reverseString = reverseString + str[i-1];}
-  str = str.toLowerCase();
-  reverseString = reverseString.toLowerCase();
   if (str == reverseString){
     return true;}
   else{  return false;}
