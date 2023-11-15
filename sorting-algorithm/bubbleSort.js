@@ -1,6 +1,6 @@
 //Pseudocode
 // make a function that takes an Array as input
-// in a while loop  ,Take each and compare pair of 2 adjacent numbers and destruct them in small order
+// in a while loop  ,Take and compare each pair of 2 adjacent numbers and destruct them in small order
 // return Array
 
 let arr= [1,5,3,77,54,7,-9,-57,23,65,41,12,2,0]
